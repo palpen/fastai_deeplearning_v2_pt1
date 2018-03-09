@@ -1,7 +1,7 @@
 # fastai_deeplearning_v2_pt1
-Notes and projects while taking FastAI's Deep Learning Course Part 1
+Notes and projects for FastAI's Deep Learning Course Part 1
 
-To run the notebooks in this repository, you must download the data required to run the notebooks and the Fastai library ([https://github.com/fastai/fastai](https://github.com/fastai/fastai)).
+To run the notebooks in this repository, you must download the data required by each notebook and the Fastai library ([https://github.com/fastai/fastai](https://github.com/fastai/fastai)).
 
 The ideal directory structure will look like the following:
 
