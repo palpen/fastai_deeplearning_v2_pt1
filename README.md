@@ -1,19 +1,19 @@
 # fastai_deeplearning_v2_pt1
 Notes and projects while taking FastAI's Deep Learning Course Part 1
 
-- Must make the fastai repository the main folder when using it for personal projects. Cannot have the following directory structure:
-    
-    fastai
-    data
-    experiments
+To run the notebooks in this repository, you must download the data required to run the notebooks and the Fastai library ([https://github.com/fastai/fastai](https://github.com/fastai/fastai)).
 
-where fastai is the repository. Try this approach at home !!!
+The ideal directory structure will look like the following:
 
-Things you need
-- resnet weights (what is the link)
-- Datasets (in data folder)
+```
+    deeplearning_project/
+    ├── fastai_deeplearning_v2_pt1/
+    │   ├── cnn_experiment_1.ipynb 
+    ├── fastai/
+    ├── data/
+```
+where `fastai_deeplearning_v2_pt1` is this repository (which contain deep learning experiments using IPython notebooks), `fastai` is the Fastai library, and `data` contains all the data required to run the analysis in the notebooks. `data` can be a symlink to the drive containing the actual datasets.
 
-Folders:
-1. fastai repository
-2. Within the fastai repository under courses, personal notes and projects have \_Palermo\_lessunNUM suffix
-3. 
+You must activate the fastai environment to be able to run the notebooks (follow instructions on the library's Github repository). Also, since the notebooks are in a different folder from the `fastai` library, you'll need to add the library to the system path by executing `import sys; sys.path.append('../fastai/')` at the top of every notebook (you may only need to execute this once). 
+
+The last thing you'll need to download are the pretrained weights of various architectures (e.g. resnext101_64). The pretrained weights can be found here http://files.fast.ai/models/weights.tgz. You need to unzip this file and place it inside the `fastai` folder within the `fastai` repository (yes, there is a subdirectory with the same name as the parent directory).
