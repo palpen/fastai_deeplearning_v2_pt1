@@ -17,3 +17,8 @@ where `fastai_deeplearning_v2_pt1` is this repository (which contain deep learni
 You must activate the fastai environment to be able to run the notebooks (follow instructions on the library's Github repository). Also, since the notebooks are in a different folder from the `fastai` library, you'll need to add the library to the system path by executing `import sys; sys.path.append('../fastai/')` at the top of every notebook (you may only need to execute this once). 
 
 The last thing you'll need to download are the pretrained weights of various architectures (e.g. resnext101_64). The pretrained weights can be found here http://files.fast.ai/models/weights.tgz. You need to unzip this file and place it inside the `fastai` folder within the `fastai` repository (yes, there is a subdirectory with the same name as the parent directory).
+
+
+## License
+
+Original work is licensed under the [MIT License](LICENSE), Copyright (c) 2026 Palermo Penano. The grant is limited to the work identified in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md); the exclusions and separate third-party terms there apply.
